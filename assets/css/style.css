@@ -124,6 +124,11 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
+#header .CodingProfile {
+  margin-top: 40px;
+  display: flex;
+}
+
 #header .social-links a {
   font-size: 16px;
   display: flex;
@@ -142,6 +147,24 @@ h1, h2, h3, h4, h5, h6 {
   background: #1c7d32;
 }
 
+#header .CodingProfile a {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+#header .CodingProfile a:hover {
+  background: #1c7d32;
+}
+
 @media (max-width: 992px) {
   #header h1 {
     font-size: 36px;
@@ -152,6 +175,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   #header .social-links {
     margin-top: 15px;
+  }
+  #header .CodingProfile{
+  margin-top: 15px;
   }
   #header .container {
     display: flex;
@@ -304,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #09203a;
 }
 
-#header.header-top .social-links, #header.header-top h2 {
+#header.header-top .social-links .CodingProfile, #header.header-top h2 {
   display: none;
 }
 
