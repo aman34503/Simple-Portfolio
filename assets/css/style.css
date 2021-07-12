@@ -11,20 +11,19 @@
 
 .CodingProfile{
   font-size: 16px;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   background: rgba(255, 255, 255, 0);
   color: #fff;
   line-height: 20;
   border-radius: 2%;
-  width: 500px;
-  left: 10;
+  width: 50px;
   top: 70%;
   right: 50;
   left: 8%;
   bottom: 70%;
   letter-spacing: 1px;
-  gap: 10px;
 
 } 
 
