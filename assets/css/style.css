@@ -15,7 +15,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
   color: #fff;
-
+  padding: 50%;
+  margin: auto;
 } 
 
 
