@@ -124,10 +124,6 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
-#header .CodingProfile {
-  margin-top: 400px;
-  display: flex;
-}
 
 #header .social-links a {
   font-size: 16px;
@@ -147,19 +143,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #1c7d32;
 }
 
-#header .CodingProfile a {
- 
-  display: flex;
-  justify-content: center;
- 
- 
- 
-  line-height: 1;
-  margin-right: 8px;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-}
 
 
 @media (max-width: 992px) {
@@ -173,9 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   #header .social-links {
     margin-top: 15px;
   }
-  #header .CodingProfile{
-  margin-top: 15px;
-  }
+ 
   #header .container {
     display: flex;
     flex-direction: column;
