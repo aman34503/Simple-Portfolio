@@ -11,7 +11,7 @@
 
 .CodingProfile{
   font-size: 16px;
-  display: flex;
+  display: grid;
   justify-content: center;
   background: rgba(255, 255, 255, 0);
   color: #fff;
@@ -19,7 +19,6 @@
   margin:auto;
   border-radius: 2%;
   width: 500px;
-  position: absolute;
   left: 10;
   top: 70%;
   right: 50;
